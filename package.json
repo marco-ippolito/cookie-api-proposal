@@ -1,0 +1,40 @@
+{
+  "name": "biscotto",
+  "version": "1.0.0",
+  "description": "WHATWG Cookie API proposal implementation",
+  "main": "index.js",
+  "type": "commonjs",
+  "types": "index.d.ts",
+  "author": {
+    "name": "Marco Ippolito",
+    "email": "marcoippolito54@gmail.com",
+    "url": "https://github.com/marco-ippolito",
+    "author": true
+  },
+  "scripts": {
+    "prepublishOnly": "git push origin --follow-tags",
+    "prepare": "husky install",
+    "format": "biome format . --write",
+    "lint": "biome check .",
+    
+    "test": "node --test --experimental-test-coverage",
+    "types": "tsc index.js --declaration --allowJs --emitDeclarationOnly",
+    "markdownlint": "markdownlint '**/*.md' --fix --ignore node_modules"
+  },
+  "keywords": [],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.0",
+    "@commitlint/config-conventional": "^18.4.0",
+    "@biomejs/biome": "1.4.1",
+    "markdownlint-cli": "^0.38.0",
+    "typescript": "^5.3.3",
+    "husky": "^8.0.2"
+  },
+  "dependencies": {},
+  "exports": {
+    "./index.js": "./index.js",
+    "./index.d.ts": "./index.d.ts",
+    "./package.json": "./package.json"
+  }
+}

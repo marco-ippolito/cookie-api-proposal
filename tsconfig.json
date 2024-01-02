@@ -1,0 +1,17 @@
+{
+    "include": [
+        "./index.js"
+    ],
+    "exclude": [
+        "./index.d.ts",
+    ],
+    "compilerOptions": {
+        "lib": [
+            "ES2015"
+        ],
+        "allowJs": true,
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "declarationMap": true
+    }
+}
