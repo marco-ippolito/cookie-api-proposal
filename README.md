@@ -109,6 +109,7 @@ cookies.get("user_id").value // user_id
 
 ```javascript
 const cookie1 = new Cookie("username", "john_doe", { path: "/" });
+
 const cookie2 = new Cookie("user_id", "123", { path: "/" });
 
 Cookie.serialize(cookie1, cookie2); // "username=john_doe; Path=/; user_id=123; Path=/"
