@@ -29,7 +29,7 @@
     "@biomejs/biome": "1.5.3",
     "markdownlint-cli": "^0.38.0",
     "typescript": "^5.3.3",
-    "husky": "^8.0.2"
+    "husky": "^9.0.7"
   },
   "dependencies": {},
   "exports": {
