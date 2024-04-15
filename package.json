@@ -28,7 +28,7 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@biomejs/biome": "1.7.0",
     "markdownlint-cli": "^0.39.0",
-    "typescript": "^5.4.4",
+    "typescript": "^5.4.5",
     "husky": "^9.0.11"
   },
   "dependencies": {},
